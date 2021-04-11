@@ -12,7 +12,9 @@ var getUserInput = function() {
     let inputDay = document.getElementById("birthDay").value
     let intDay = parseInt(inputDay)
 
-    let input = document.getElementById("gender").value
+    let inputGender = document.getElementById("gender").value
+    let akanName;
+    
 
     if(intDay <= 0 || intDay> 31){
         alert("Enter correct day")
@@ -22,6 +24,14 @@ var getUserInput = function() {
     }
 
     let day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
-    console.log(day)
+
+
+    if(inputGender ==="Male"){
+        akanName = namesOfMale[day]
+        alert("Your Akan name is " + akanName + ". Because you were born on "+ daysOfTheWeek[day])
+    }else if (inputGender === "Female"){
+        akanName = namesOfFemale[day]
+        alert("Your Akan name is " + akanName + ". Because you were born on "+ daysOfTheWeek[day])
+    }
 }
 
