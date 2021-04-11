@@ -6,5 +6,6 @@ var getUserInput = function() {
     let inputYear = document.getElementById("birthYear").value
     let intYear = parseInt(inputYear)
 
-    
+    let inputMonth = document.getElementById("birthMonth").value
+    let intMonth = parseInt(inputMonth)
 }
