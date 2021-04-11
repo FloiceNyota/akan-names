@@ -14,4 +14,7 @@ var getUserInput = function() {
 
     let input = document.getElementById("gender").value
 
+    if(intDay <= 0 || intDay> 31){
+        alert("Enter correct day")
+    }
 }
