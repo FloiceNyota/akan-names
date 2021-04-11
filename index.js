@@ -20,6 +20,8 @@ var getUserInput = function() {
     if(intMonth <=0 || intMonth>12){
         alert("Enter correct month")
     }
-    
+
+    let day = new Date(intYear+"-"+intMonth+"-"+inputDay).getDay()
+    console.log(day)
 }
 
