@@ -1,5 +1,4 @@
 *{
-    background-color: #00401d;
     font-family: calibri;
     font-size: 24px;
     margin: 0px;
@@ -8,9 +7,14 @@
 }
 
 h1{
-    color: gold;
+    color:yellowgreen;
     width: 50%;
 }
+p{
+    color: black;
+}
+    
+
 body{
     background-color: #00401d;
     color: white;
