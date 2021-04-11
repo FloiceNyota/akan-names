@@ -17,4 +17,9 @@ var getUserInput = function() {
     if(intDay <= 0 || intDay> 31){
         alert("Enter correct day")
     }
+    if(intMonth <=0 || intMonth>12){
+        alert("Enter correct month")
+    }
+    
 }
+
