@@ -11,4 +11,7 @@ var getUserInput = function() {
 
     let inputDay = document.getElementById("birthDay").value
     let intDay = parseInt(inputDay)
+
+    let input = document.getElementById("gender").value
+
 }
