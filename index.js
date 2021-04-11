@@ -49,3 +49,7 @@ var getUserInput = function() {
     }
 }
 
+let reset = function(){
+    location.reload();
+} 
+

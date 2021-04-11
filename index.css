@@ -6,12 +6,23 @@
 
 }
 
+.jumbotron {
+    background: url('./images/ghana.png') no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
 h1{
     color:yellowgreen;
     width: 50%;
 }
 p{
-    color: black;
+    color:black;
+    background-color:#DADADE;
+    opacity: 45%;
+    padding: 15px;
 }
     
 
