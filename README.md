@@ -1,8 +1,10 @@
-# AKAN-NAMES
+# AKAN-NAMES PROJECT
 ## Author
-Lydia Kang'eri
+Floice Nyota
 ### Project Description
-It's a website created takes a user's birthday and calculates the day of the week they were born then depending on their gender outputs their Akan Name derived from Ghanian culture.
+This is a website about Akan Names from the Ghanian Culture. 
+it is an application that takes a user's birthday and calculates 
+the day of the week they were born and then depending on their gender outputs their Akan Name.
 ### Prerequisities
 You need to have git installed
 You can install it with the following command in your terminal.
@@ -10,7 +12,7 @@ You can install it with the following command in your terminal.
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-2. Use this command to clone `$ git clone https://github.com/lydia-254/AKAN-NAMES.git`
+2. Use this command to clone `$ git clone https://github.com/FloiceNyota98/akan-names.git`
 3. This will clone the repositoty into your local folder
  __Enjoy :)__
 ### Technologies Used
