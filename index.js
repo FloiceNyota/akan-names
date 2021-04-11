@@ -8,4 +8,7 @@ var getUserInput = function() {
 
     let inputMonth = document.getElementById("birthMonth").value
     let intMonth = parseInt(inputMonth)
+
+    let inputDay = document.getElementById("birthDay").value
+    let intDay = parseInt(inputDay)
 }
