@@ -6,6 +6,38 @@
     padding: 0px;
 
 }
+
 h1{
     color: gold;
+    width: 50%;
+}
+body{
+    background-color: #00401d;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.birthdaygetter{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wholebirthdaygetter{
+    width: 90%;
+    height: 95%;
+}
+.textinput{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: 0px solid;
 }
