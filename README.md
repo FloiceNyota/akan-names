@@ -22,12 +22,14 @@ To access this project on your local files, you can clone it using these steps
 4. JAVASCRIPT
 5. BOOTSTRAP
 ### BDD
-| Inputs | Description |
-|:---        |          ---: |
-| Century  | The century that user was born in, ``eg 20th century``|
-| Year   | The year of the century ``eg 98th year``  |
-| Month  | The month of the year ``eg 7th month``  |
-| Date   | The date of the month ``eg 15th day`` |
+1. Displays Form For Entering Date and Gender
+INPUT: "User's Birthdate Entered"
+INPUT:"User's Gender Entered"
+OUTPUT:"Display User's Akan Name As Submitted Date and Gender"
+2. Displaying an Error Message if Date input Left Blank
+INPUT: ""
+OUTPUT:"Display an Error Message"
+3. Display an Error Message if Gender is not chosen
 ### Live Site
-View [Live] (@@@)
+View [Live] ()
 

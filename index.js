@@ -42,10 +42,10 @@ var getUserInput = function() {
 
     if(inputGender ==="Male"){
         akanName = namesOfMale[day]
-        alert("Your Akan name is " + akanName + ". Because you were born on "+ daysOfTheWeek[day])
+        alert("Your Akan name is " + akanName + ". Because you are a male born on "+ daysOfTheWeek[day])
     }else if (inputGender === "Female"){
         akanName = namesOfFemale[day]
-        alert("Your Akan name is " + akanName + ". Because you were born on "+ daysOfTheWeek[day])
+        alert("Your Akan name is " + akanName + ". Because you are a female born on "+ daysOfTheWeek[day])
     }
 }
 
