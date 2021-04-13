@@ -30,6 +30,11 @@ OUTPUT:"Display User's Akan Name As Submitted Date and Gender"
 INPUT: ""
 OUTPUT:"Display an Error Message"
 3. Display an Error Message if Gender is not chosen
+INPUT: ""
+OUTPUT: "Clears and Resets the Form"
+4. Clears Form A nd Reset the Click
+INPUT:"Click Clear Selection Button"
+OUTPUT:"Clears and Resets the form"
 ### Live Site
-View [Live] ()
+View [Live] (`floicenyota98.github.io/akan-names/`)
 
